@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-sonar-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage tests/*",
+    "start": "node src/index.js",
+    "sonar": "node sonar-scan.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "29.6.4",
+    "sonarqube-scanner": "3.1.0"
+  }
+}
